@@ -33,7 +33,7 @@ public class Program {
         AbstractModule m1 = FactoryModule.getModule(TipuriModule.GPS,"gps","gpsul pulii",1000);
         ((GPSTracking) m1).setAccurateMarita(true).setTipHarta("Mare");
         System.out.println(m1);
-
+        AbstractModule m2 = FactoryModule.getModule(TipuriModule.URMARIRE_INTELIGENTA,"urmarire","descriere",89);
 
 
     }
